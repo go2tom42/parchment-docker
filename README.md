@@ -2,6 +2,10 @@
 https://github.com/curiousdannii/parchment  
 https://github.com/emikulic/darkhttpd  
 
+## Info  
+supports blorb (EXT blb & blorb), hugo (EXT hex), glulx (EXT gblorb, glb, & ulx), tads (EXT gam & t3), zcode (EXT zblorb, zlb, z3, z4, z5, & z8)
+
+
 ## Usage
 
 ### docker-compose
