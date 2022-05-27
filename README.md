@@ -27,4 +27,7 @@ services:
 
 To load story from url  
 
-https://localhost:80/?story=files/infidel-r22-s830916.z3
+https://localhost:80/?story=files/infidel-r22-s830916.z3  
+or  
+https://localhost:80/?story=https://eblong.com/infocom/gamefiles/hitchhiker-invclues-r31-s871119.z5
+
