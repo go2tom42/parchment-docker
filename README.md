@@ -23,8 +23,10 @@ services:
       - 80:80
     restart: unless-stopped
 ```
-
-
+### docker-cli
+```shell
+docker run -d --name parchment -p 80:80 -v /path/to/story/files:/html/files --restart unless-stopped ghcr.io/go2tom42/parchment-docker:latest	
+```
 To load story from url  
 
 https://localhost:80/?story=files/infidel-r22-s830916.z3  
