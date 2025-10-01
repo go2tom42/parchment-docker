@@ -5,10 +5,10 @@ RUN apk add --no-cache gcc make musl-dev nodejs npm git curl && \
     && cd darkhttpd \
     && make CFLAGS=-static \
     && cd .. \
-    && git clone https://github.com/curiousdannii/parchment \
+    && git clone --recurse-submodules https://github.com/curiousdannii/parchment.git \
     && cd parchment \
-    && git submodule update --init --recursive \
-    && npm install
+    && npm install \
+    && npm run build
 
 FROM scratch
 
